@@ -1,0 +1,566 @@
+{
+	"Records": [
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:42:57Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:42:58Z",
+			"eventSource": "ec2.amazonaws.com",
+			"eventName": "TerminateInstances",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"instancesSet": {
+					"items": [
+						{
+							"instanceId": "i-0c5e2f7e5892360b1"
+						}
+					]
+				}
+			},
+			"responseElements": {
+				"instancesSet": {
+					"items": [
+						{
+							"instanceId": "i-0c5e2f7e5892360b1",
+							"currentState": {
+								"code": 32,
+								"name": "shutting-down"
+							},
+							"previousState": {
+								"code": 16,
+								"name": "running"
+							}
+						}
+					]
+				}
+			},
+			"requestID": "fdb6f585-1e82-4b92-8aee-89a45b10fb07",
+			"eventID": "0bf20156-12e9-4be4-8306-fa6f00d0ad24",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		},
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:40:08Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:40:08Z",
+			"eventSource": "ec2.amazonaws.com",
+			"eventName": "TerminateInstances",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"instancesSet": {
+					"items": [
+						{
+							"instanceId": "i-0727851b291c07b18"
+						}
+					]
+				}
+			},
+			"responseElements": {
+				"instancesSet": {
+					"items": [
+						{
+							"instanceId": "i-0727851b291c07b18",
+							"currentState": {
+								"code": 32,
+								"name": "shutting-down"
+							},
+							"previousState": {
+								"code": 16,
+								"name": "running"
+							}
+						}
+					]
+				}
+			},
+			"requestID": "ac77ff82-75db-4d55-965f-d79f8d9ab70b",
+			"eventID": "fb9790fe-bff4-4690-8846-6dae43648e90",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		},
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"accessKeyId": "ASIAQHP6CO6GX2CNZ3LF",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:37:48Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:37:48Z",
+			"eventSource": "elasticloadbalancing.amazonaws.com",
+			"eventName": "DeregisterTargets",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:016102094733:targetgroup/tg-cid-prod-fmr-12-8443/88013376d5019a8e",
+				"targets": [
+					{
+						"id": "i-0c5e2f7e5892360b1"
+					}
+				]
+			},
+			"responseElements": null,
+			"requestID": "42c8b78a-a050-49e8-b467-968852c2815f",
+			"eventID": "803bae15-50ee-484d-abe6-167fb9839582",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"apiVersion": "2015-12-01",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		},
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"accessKeyId": "ASIAQHP6CO6GSSKVHVI3",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:35:07Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:35:07Z",
+			"eventSource": "elasticloadbalancing.amazonaws.com",
+			"eventName": "DeregisterTargets",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:016102094733:targetgroup/tg-cid-prod-fmr-12-8443/88013376d5019a8e",
+				"targets": [
+					{
+						"id": "i-0727851b291c07b18"
+					}
+				]
+			},
+			"responseElements": null,
+			"requestID": "1b6a8770-4fd7-458a-b91a-17ae7ac9f820",
+			"eventID": "ffb40bce-349f-43a6-a123-2233c711cde2",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"apiVersion": "2015-12-01",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		},
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"accessKeyId": "ASIAQHP6CO6G2KUI4WHL",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:05:49Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:05:49Z",
+			"eventSource": "elasticloadbalancing.amazonaws.com",
+			"eventName": "RegisterTargets",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"targets": [
+					{
+						"id": "i-0727851b291c07b18"
+					}
+				],
+				"targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:016102094733:targetgroup/tg-cid-prod-fmr-12-8443/88013376d5019a8e"
+			},
+			"responseElements": null,
+			"requestID": "99ad7121-cfd9-445e-a440-4518e524d00a",
+			"eventID": "ee07f63a-8be7-40db-9bb0-5d6d1350747f",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"apiVersion": "2015-12-01",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		},
+		
+		{
+			"eventVersion": "1.08",
+			"userIdentity": {
+				"type": "AssumedRole",
+				"principalId": "AROAJ4ZLVILUEM6UVHWSG:AutoScaling",
+				"arn": "arn:aws:sts::016102094733:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+				"accountId": "016102094733",
+				"sessionContext": {
+					"sessionIssuer": {
+						"type": "Role",
+						"principalId": "AROAJ4ZLVILUEM6UVHWSG",
+						"arn": "arn:aws:iam::016102094733:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+						"accountId": "016102094733",
+						"userName": "AWSServiceRoleForAutoScaling"
+					},
+					"webIdFederationData": {},
+					"attributes": {
+						"mfaAuthenticated": "false",
+						"creationDate": "2021-02-02T20:05:15Z"
+					}
+				},
+				"invokedBy": "autoscaling.amazonaws.com"
+			},
+			"eventTime": "2021-02-02T20:05:18Z",
+			"eventSource": "ec2.amazonaws.com",
+			"eventName": "RunInstances",
+			"awsRegion": "us-east-1",
+			"sourceIPAddress": "autoscaling.amazonaws.com",
+			"userAgent": "autoscaling.amazonaws.com",
+			"requestParameters": {
+				"instancesSet": {
+					"items": [
+						{
+							"imageId": "ami-0ed56a4781e3e3475",
+							"minCount": 1,
+							"maxCount": 1,
+							"keyName": "cid-fmr-us-east-1-01"
+						}
+					]
+				},
+				"groupSet": {
+					"items": [
+						{
+							"groupId": "sg-0abf463494db4e9f8"
+						}
+					]
+				},
+				"userData": "<sensitiveDataRemoved>",
+				"instanceType": "m5a.large",
+				"blockDeviceMapping": {
+					"items": [
+						{
+							"deviceName": "/dev/sdc",
+							"ebs": {
+								"snapshotId": "snap-00c913f9c99335da0",
+								"volumeSize": 2,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sdb",
+							"ebs": {
+								"snapshotId": "snap-0960bd75b84a9bf23",
+								"volumeSize": 10,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sdf",
+							"ebs": {
+								"snapshotId": "snap-074a641592cb8e5b2",
+								"volumeSize": 2,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sdd",
+							"ebs": {
+								"snapshotId": "snap-02500298f674ece9e",
+								"volumeSize": 2,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sdg",
+							"ebs": {
+								"snapshotId": "snap-0d95243736eb994c0",
+								"volumeSize": 2,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sde",
+							"ebs": {
+								"snapshotId": "snap-0b5065f5bf450dace",
+								"volumeSize": 2,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						},
+						{
+							"deviceName": "/dev/sda1",
+							"ebs": {
+								"snapshotId": "snap-074d5ee28f853f608",
+								"volumeSize": 10,
+								"deleteOnTermination": true,
+								"volumeType": "gp2",
+								"encrypted": false
+							}
+						}
+					]
+				},
+				"availabilityZone": "us-east-1d",
+				"monitoring": {
+					"enabled": true
+				},
+				"subnetId": "subnet-0d5cc60bdfdc39a00",
+				"disableApiTermination": false,
+				"clientToken": "d7a5dd91-6580-a5c0-5f7b-b8c5e9ffff02",
+				"iamInstanceProfile": {
+					"arn": "arn:aws:iam::016102094733:instance-profile/cf-prod-fmr-12-DB-WEB0-rIAMInstanceProfile-1IO6QME19QPV2"
+				},
+				"tagSpecificationSet": {
+					"items": [
+						{
+							"resourceType": "instance",
+							"tags": [
+								{
+									"key": "aws:autoscaling:groupName",
+									"value": "asg-prod-fmr-12"
+								},
+								{
+									"key": "Name",
+									"value": "prod-fmr-12-web-asg"
+								}
+							]
+						}
+					]
+				}
+			},
+			"responseElements": {
+				"requestId": "0a119664-51fd-4dd9-8e6e-45c429258bfd",
+				"reservationId": "r-08c6c41353215394b",
+				"ownerId": "016102094733",
+				"groupSet": {},
+				"instancesSet": {
+					"items": [
+						{
+							"instanceId": "i-0727851b291c07b18",
+							"imageId": "ami-0ed56a4781e3e3475",
+							"instanceState": {
+								"code": 0,
+								"name": "pending"
+							},
+							"privateDnsName": "ip-10-111-12-139.ec2.internal",
+							"keyName": "cid-fmr-us-east-1-01",
+							"amiLaunchIndex": 0,
+							"productCodes": {},
+							"instanceType": "m5a.large",
+							"launchTime": 1612296317000,
+							"placement": {
+								"availabilityZone": "us-east-1d",
+								"tenancy": "default"
+							},
+							"monitoring": {
+								"state": "pending"
+							},
+							"subnetId": "subnet-0d5cc60bdfdc39a00",
+							"vpcId": "vpc-0552b9ae2bb6f6d44",
+							"privateIpAddress": "10.111.12.139",
+							"stateReason": {
+								"code": "pending",
+								"message": "pending"
+							},
+							"architecture": "x86_64",
+							"rootDeviceType": "ebs",
+							"rootDeviceName": "/dev/sda1",
+							"blockDeviceMapping": {},
+							"virtualizationType": "hvm",
+							"hypervisor": "xen",
+							"tagSet": {
+								"items": [
+									{
+										"key": "Name",
+										"value": "prod-fmr-12-web-asg"
+									},
+									{
+										"key": "aws:autoscaling:groupName",
+										"value": "asg-prod-fmr-12"
+									}
+								]
+							},
+							"clientToken": "d7a5dd91-6580-a5c0-5f7b-b8c5e9ffff02",
+							"groupSet": {
+								"items": [
+									{
+										"groupId": "sg-0abf463494db4e9f8",
+										"groupName": "cf-prod-fmr-12-VPC-rInstanceFIDOOnlySecurityGroup-KB4SRJNVKYR3"
+									}
+								]
+							},
+							"sourceDestCheck": true,
+							"networkInterfaceSet": {
+								"items": [
+									{
+										"networkInterfaceId": "eni-0b30d69ac7d9fe57e",
+										"subnetId": "subnet-0d5cc60bdfdc39a00",
+										"vpcId": "vpc-0552b9ae2bb6f6d44",
+										"ownerId": "016102094733",
+										"status": "in-use",
+										"macAddress": "0e:47:7b:eb:a0:4d",
+										"privateIpAddress": "10.111.12.139",
+										"privateDnsName": "ip-10-111-12-139.ec2.internal",
+										"sourceDestCheck": true,
+										"interfaceType": "interface",
+										"groupSet": {
+											"items": [
+												{
+													"groupId": "sg-0abf463494db4e9f8",
+													"groupName": "cf-prod-fmr-12-VPC-rInstanceFIDOOnlySecurityGroup-KB4SRJNVKYR3"
+												}
+											]
+										},
+										"attachment": {
+											"attachmentId": "eni-attach-0346ca9dad3782da2",
+											"deviceIndex": 0,
+											"networkCardIndex": 0,
+											"status": "attaching",
+											"attachTime": 1612296317000,
+											"deleteOnTermination": true
+										},
+										"privateIpAddressesSet": {
+											"item": [
+												{
+													"privateIpAddress": "10.111.12.139",
+													"privateDnsName": "ip-10-111-12-139.ec2.internal",
+													"primary": true
+												}
+											]
+										},
+										"ipv6AddressesSet": {},
+										"tagSet": {}
+									}
+								]
+							},
+							"iamInstanceProfile": {
+								"arn": "arn:aws:iam::016102094733:instance-profile/cf-prod-fmr-12-DB-WEB0-rIAMInstanceProfile-1IO6QME19QPV2",
+								"id": "AIPAIHBZHCJPJB7DGDGJ4"
+							},
+							"ebsOptimized": false,
+							"enaSupport": true,
+							"cpuOptions": {
+								"coreCount": 1,
+								"threadsPerCore": 2
+							},
+							"capacityReservationSpecification": {
+								"capacityReservationPreference": "open"
+							},
+							"enclaveOptions": {
+								"enabled": false
+							},
+							"metadataOptions": {
+								"state": "pending",
+								"httpTokens": "optional",
+								"httpPutResponseHopLimit": 1,
+								"httpEndpoint": "enabled"
+							}
+						}
+					]
+				},
+				"requesterId": "940372691376"
+			},
+			"requestID": "0a119664-51fd-4dd9-8e6e-45c429258bfd",
+			"eventID": "ae663846-8b34-4c0c-986f-5bf557cb1075",
+			"readOnly": false,
+			"eventType": "AwsApiCall",
+			"managementEvent": true,
+			"eventCategory": "Management",
+			"recipientAccountId": "016102094733"
+		}
+	]
+}
